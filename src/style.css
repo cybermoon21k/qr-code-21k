@@ -3,10 +3,33 @@
     padding: 0;
 }
 
+html, body {
+    width: 100%;
+}
+
 body {
     font-family: "Outfit", sans-serif;
     font-size: 15px;
-    background-color: hsl(216, 15%, 48%);
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 260px;
+    height: fit-content;
+    padding: 16px;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 footer {
