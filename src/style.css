@@ -32,6 +32,22 @@ main {
     border-radius: 20px;
 }
 
+.text-container {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.text-container p {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+}
+
 footer {
     font-size: 11px;
     text-align: center;
